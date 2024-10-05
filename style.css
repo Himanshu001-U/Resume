@@ -1,0 +1,93 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: #fefcfc;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 90vw;
+    padding-bottom: 100px;
+}
+
+.head {
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    height: 200px;
+    padding-top: 0;
+}
+
+.name {
+    padding-top: 0;
+    padding-left: 50px;
+    width: 60%;
+}
+
+.body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr {
+    width: 100%;
+}
+
+.body div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.left ul li {
+    font-size: 18px;
+
+}
+
+.left ul p {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    font-weight: bolder;
+}
+
+.skill ul li {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.projects ul li {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(57, 249, 140);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.interest ul li {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(249, 232, 78);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
